@@ -1,0 +1,31 @@
+﻿<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:dx="http://schemas.devexpress.com/maui"
+    xmlns:local="clr-namespace:TreeViewWithSelfReferenceData"
+    BackgroundColor="{dx:ThemeColor Surface}"
+    x:Class="TreeViewApp.MainPage">
+
+    <ContentPage.BindingContext>
+        <local:TreeViewModel/>
+    </ContentPage.BindingContext>
+
+    <Grid>
+        <dx:DXTreeView
+            x:Name="treeView"
+            ItemsSource="{Binding Nodes}"
+            AutoExpandMode="AllNodes"
+            AllowSelection="True"
+            DisplayMember="FullName">
+            <dx:DXTreeView.TreeDescription>
+                <dx:SelfReferenceTreeDescription KeyFieldName="Id" ParentFieldName="ParentId"/>
+            </dx:DXTreeView.TreeDescription>
+            <dx:DXTreeView.SortDescriptions>
+                <dx:TreeViewSortDescription 
+                    x:Name="sortDescription" 
+                    FieldName="FullName"
+                    SortOrder="Ascending"/>
+            </dx:DXTreeView.SortDescriptions>
+        </dx:DXTreeView>
+    </Grid>
+</ContentPage>
