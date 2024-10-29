@@ -7,24 +7,24 @@
 
 # DevExpress Tree View for .NET MAUI
 
-The [DXTreeView](https://docs.devexpress.com/MAUI/DevExpress.Maui.TreeView.DXTreeView) control is part of [DevExpress Mobile UI for .NET MAUI](https://www.devexpress.com/maui/) - a development library that allows you to use a .NET cross-platform UI toolkit and C# to create native apps for iOS and Android.
+The **DevExpress .NET MAUI** TreeView control ([DXTreeView](https://docs.devexpress.com/MAUI/DevExpress.Maui.TreeView.DXTreeView)) ships as part of the [DevExpress .NET MAUI Mobile UI component suite](https://www.devexpress.com/maui/).
 
 ![DevExpress Mobile UI for .NET MAUI](./img/maui.png)
 
-For a limited time, **DevExpress Mobile UI for .NET MAUI** is available free of charge. To learn more about our offer and obtain your copy, visit the following page: [Free Offer - DevExpress Mobile UI for .NET MAUI](https://www.devexpress.com/xamarin-free).
+For a limited time, our **.NET MAUI Mobile UI component suite** is available free of charge. To learn more about this free offer and obtain your copy, visit the following page: [Free Offer - DevExpress Mobile UI for .NET MAUI](https://www.devexpress.com/xamarin-free).
 
 ## Requirements
 
-Register your DevExpress NuGet Feed in Visual Studio to restore packages used in this solution. Review the following article for additional information: [Get Started with DevExpress Mobile UI for .NET MAUI](https://docs.devexpress.com/MAUI/403249/get-started). 
+Register your DevExpress NuGet Feed within Visual Studio to restore packages used in this solution. Review the following article for additional information: [Get Started with DevExpress Mobile UI for .NET MAUI](https://docs.devexpress.com/MAUI/403249/get-started). 
 
-You can also refer to the following YouTube video for more information on how to get started with DevExpress .NET MAUI Controls: [Setting up a .NET MAUI Project](https://www.youtube.com/watch?v=juJvl5UicIQ).
+Watch the following YouTube video to get started with DevExpress .NET MAUI controls: [Setting up a .NET MAUI Project](https://www.youtube.com/watch?v=juJvl5UicIQ).
 
 ## What's in This Repository
 
-This repository contains projects that populate the DevExpress .NET MAUI Tree View control with [self-referential (flat)](https://docs.devexpress.com/MAUI/404899/tree-view/display-hierarchical-data#self-referential-data-structure) and [hierarchical](https://docs.devexpress.com/MAUI/404899/tree-view/display-hierarchical-data#hierarchical-data-structure) data.
-
-* [Bind Tree View to Self-Referencial Data](/CS/TreeViewWithSelfReferenceData/)
-* [Bind Tree View to Hierarchical](/CS/TreeViewWithHierarchicalData/)
+This repository contains projects designed to populate the DevExpress .NET MAUI TreeView control with both [self-referenced (flat)](https://docs.devexpress.com/MAUI/404899/tree-view/display-hierarchical-data#self-referential-data-structure) and [hierarchical](https://docs.devexpress.com/MAUI/404899/tree-view/display-hierarchical-data#hierarchical-data-structure) data.
+ 
+* [Bind the .NET MAUI TreeView to Self-Referenced Data ](/CS/TreeViewWithSelfReferenceData/)
+* [Bind the .NET MAUI TreeView to Hierarchical Data](/CS/TreeViewWithHierarchicalData/)
 
 <img src="./img/tree-view.png" width="70%">
 
