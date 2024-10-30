@@ -21,7 +21,7 @@ Watch the following YouTube video to get started with DevExpress .NET MAUI contr
 
 ## What's in This Repository
 
-This repository contains projects designed to populate the DevExpress .NET MAUI TreeView control with both [self-referenced (flat)](https://docs.devexpress.com/MAUI/404899/tree-view/display-hierarchical-data#self-referential-data-structure) and [hierarchical](https://docs.devexpress.com/MAUI/404899/tree-view/display-hierarchical-data#hierarchical-data-structure) data.
+This repository contains projects designed to populate the DevExpress .NET MAUI TreeView control with both [self-referenced (flat)](https://docs.devexpress.com/MAUI/404899/tree-view/display-hierarchical-data#self-referenсed-data-structure) and [hierarchical](https://docs.devexpress.com/MAUI/404899/tree-view/display-hierarchical-data#hierarchical-data-structure) data.
  
 * [Bind the .NET MAUI TreeView to Self-Referenced Data ](/CS/TreeViewWithSelfReferenceData/)
 * [Bind the .NET MAUI TreeView to Hierarchical Data](/CS/TreeViewWithHierarchicalData/)
