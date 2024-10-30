@@ -12,4 +12,4 @@ This example displays information from a hierarchical data structure. The hierar
 
 ## More Examples
 
-* [Tree View - Display Information from Self-Referencial Data Structures](../TreeViewWithSelfReferenceData/)
+* [Tree View - Display Information from Self-Referenced Data Structures](../TreeViewWithSelfReferenceData/)
