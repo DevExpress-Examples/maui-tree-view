@@ -11,7 +11,7 @@ The **DevExpress .NET MAUI** TreeView control ([DXTreeView](https://docs.devexpr
 
 ![DevExpress Mobile UI for .NET MAUI](./img/maui.png)
 
-For a limited time, our **.NET MAUI Mobile UI component suite** is available free of charge. To learn more about this free offer and obtain your copy, visit the following page: [Free Offer - DevExpress Mobile UI for .NET MAUI](https://www.devexpress.com/xamarin-free).
+You need a [DevExpress .NET MAUI Subscription](https://www.devexpress.com/maui/) to run the example. To evaluate our controls, you can start a [free 30-day trial](https://docs.devexpress.devx/MAUI/404024/get-started/register-nuget-gallery) through the DevExpress NuGet feed.
 
 ## Requirements
 
